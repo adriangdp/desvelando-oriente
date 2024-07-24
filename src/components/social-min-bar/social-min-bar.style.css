@@ -1,0 +1,18 @@
+/*$primary: #4d4d4d;
+$secondary: #10665f;
+$success: #0b87a7;
+$info: #83d898;
+$warning: #e5e761;
+$danger: #e95d3b;
+$light: #f1f0e7;
+$dark: #353331;*/
+.rrss-link {
+  font-size: 4em;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.rrss-link:hover {
+  transform: scale(1.2);
+  color: #d6b657;
+}/*# sourceMappingURL=social-min-bar.style.css.map */

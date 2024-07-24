@@ -1,0 +1,1 @@
+{"version":3,"sources":["single-post.style.scss","single-post.style.css"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,YAAA;ACCJ","file":"single-post.style.css","sourcesContent":[".contenido img{\r\n    max-width: 100%;\r\n    height: auto;\r\n}",".contenido img {\n  max-width: 100%;\n  height: auto;\n}"]}

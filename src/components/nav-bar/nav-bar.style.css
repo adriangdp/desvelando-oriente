@@ -1,0 +1,9 @@
+#navigation-bar,
+#navigation-bar__nav {
+  border-radius: 0px;
+}
+
+.select,
+.control {
+  border-radius: 0;
+}/*# sourceMappingURL=nav-bar.style.css.map */

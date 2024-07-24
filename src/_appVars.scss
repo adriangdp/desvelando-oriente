@@ -1,0 +1,35 @@
+/*$primary: #4d4d4d;
+$secondary: #10665f;
+$success: #0b87a7;
+$info: #83d898;
+$warning: #e5e761;
+$danger: #e95d3b;
+$light: #f1f0e7;
+$dark: #353331;*/
+
+$primary: #475E51;
+$secondary: #10665f;
+$success: #09afb4;
+$info: #d6b657;
+$warning: #a11313;
+$danger: #F9F7F2;
+$light: #7F8C8D;
+$dark: #333333;
+
+$font-family-base:"Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$display-font-family:  "Playfair Display", serif;
+$font-family-sans-serif: "Lato", sans-serif;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer*5,
+  10: $spacer*10,
+);

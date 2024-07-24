@@ -1,0 +1,12 @@
+@import "../../appVars";
+
+.rrss-link{
+    font-size:4em;
+    text-decoration: none !important;
+    transition: all .2s ease-in-out;
+}
+
+.rrss-link:hover{
+    transform: scale(1.2);
+    color:$info;
+}

@@ -1,0 +1,17 @@
+.container-parent {
+  min-height: 50vh;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.row-container {
+  min-height: 50vh;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.image-holder {
+  background-size: cover;
+  min-height: 100%;
+  background-position: center;
+}/*# sourceMappingURL=hero.style.css.map */
