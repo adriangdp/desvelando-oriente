@@ -2,9 +2,10 @@ import React from "react";
 import { Nav, Navbar, NavDropdown, Container, NavLink, Button } from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
-import "./nav-bar.style.scss";
+
 import { toggleTheme } from '../../Slices/appVars';
 
+import "./nav-bar.style.scss";
 
 const NavBar = () => {
   const appVars = useSelector((state) => state.applicationVars);
@@ -27,9 +28,9 @@ const NavBar = () => {
         <Navbar.Collapse>
           <Nav id="navigation-bar__nav" className='fs-5'>
             {/*HISTORIA*/}
-            <NavDropdown id="navigation-bar__historia" title="Historia" className='ms-5 me-3 fs-5'>
+            <NavDropdown id="navigation-bar__historia" title="Historia" className='ms-5 me-3 fs-5 '>
               <NavDropdown.Item
-                href="https://desvelandooriente.com/historia/breve-historia-de-oriente-medio/"
+                href="/categoria/breve-historia-de-oriente-medio/"
                 menuVariant="dark"
               >
                 Breve Historia de Oriente Medio
@@ -89,7 +90,7 @@ const NavBar = () => {
           </Nav>
           
         </Navbar.Collapse>
-        <Button onClick={handleToggleTheme} className='btn btn-info px-3 float-end'><i className="lni lni-sun"></i></Button>
+        <Button onClick={handleToggleTheme} className='btn btn-secondary px-3 float-end'><i className="lni lni-sun"></i></Button>
       </Container>
     </Navbar>
   );

@@ -4,7 +4,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 
 import { Row, Col, Container } from 'react-bootstrap';
 
-import CategoryToast from '../../components/categories-page/category-toast.component';
+import CategoryToast from '../../components/categories-toast/category-toast.component';
 import Spinner from '../../components/loading-spinner/loading-spinner.component';
 
 const CategoryRoute = () =>{
@@ -32,7 +32,7 @@ const CategoryRoute = () =>{
     },[])
 
     return(
-        <Container className='mt-10 px-10'>
+        <Container className='mt-10 px-3 px-md-10'>
             
             { category !== null ?
             <div className="my-4 py-3">
@@ -49,7 +49,7 @@ const CategoryRoute = () =>{
                 <></> 
 
             }
-            <Row xs={2} md={4} className="g-5">
+            <Row xs={12} md={4} className="g-5 g-md-5">
                 {
                     postsCategory.length > 0?                  
                            

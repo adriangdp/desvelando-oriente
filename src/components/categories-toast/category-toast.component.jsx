@@ -10,12 +10,12 @@ const CategoryToast = ({post={}}) =>{
 
     return(
         
-        <Card className='h-100' style={{"height":"100%"}}>
+        <Card>
             <Card.Header>
                 <Card.Title>{parser(post.title)}</Card.Title>
             </Card.Header>
             <Card.Body>
-                <div className='d-flex ' style={{"max-height":"10em"}}>
+                <div className='d-flex '>
                     {
                         post.featured_image !== "" ?
                             <img 
