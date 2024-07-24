@@ -11,7 +11,7 @@ const CategoriesHomeActualidad = () =>{
             <Row className='g-3 g-md-0 pt-5'>
                 <CategoriesImageLink 
                     title="Preguntas y respuestas" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-preguntas-y-respuestas.jpg"
+                    img="/media/categories/cat-preguntas-y-respuestas.jpg"
                     linkMsg="Acceder"
                     linkRef='/categoria/preguntas-y-respuestas'
                     alt='Acceder'
@@ -19,35 +19,35 @@ const CategoriesHomeActualidad = () =>{
                 />
                 <CategoriesImageLink 
                     title="Movimientos sociales" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-movimientos-sociales.jpg"
+                    img="/media/categories/cat-movimientos-sociales.jpg"
                     linkMsg="Acceder"
                     linkRef='#'
                     alt='Acceder'
                 />
                 <CategoriesImageLink 
                     title="Migraciones y fronteras" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-migraciones.jpg"
+                    img="/media/categories/cat-migraciones.jpg"
                     linkMsg="Acceder"
                     linkRef='#'
                     alt='Acceder'
                 />
                 <CategoriesImageLink 
                     title="Opinion" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-opinion.jpg"
+                    img="/media/categories/cat-opinion.jpg"
                     linkMsg="Acceder"
                     linkRef='#'
                     alt='Acceder'
                 />
                 <CategoriesImageLink 
                     title="Luces y sombras de Qatar" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-luces-sombras-qatar.jpg"
+                    img="/media/categories/cat-luces-sombras-qatar.jpg"
                     linkMsg="Acceder"
                     linkRef='/categoria/qatar'
                     alt='Acceder'
                 />
                 <CategoriesImageLink 
                     title="Guerra Civil Siria" 
-                    img="https://adriangdp.github.io/desvelando-oriente/media/categories/cat-afganistan.jpg"
+                    img="/media/categories/cat-afganistan.jpg"
                     linkMsg="Acceder"
                     linkRef='/categoria/guerra-civil-siria'
                     alt='Acceder'
