@@ -6,9 +6,9 @@ import CategoriesImageLink from '../categories-imagelink/categories-imagelink.co
 const CategoriesHomeActualidad = () =>{
 
     return(
-        <Container fluid className='mx-0 px-0 px-md-5 mt-3 mt-md-5'>
-            <h2 className='display-5 pb-0'>Actualidad</h2>
-            <Row className='g-3 g-md-0 pt-5'>
+        <Container fluid className='mx-0 px-0 px-md-5 mt-3 mt-7 mt-md-5'>
+            <h2 className='mx-3 display-5 pb-0'>Actualidad</h2>
+            <Row className='g-0 g-md-0 pt-5'>
                 <CategoriesImageLink 
                     title="Preguntas y respuestas" 
                     img="/media/categories/cat-preguntas-y-respuestas.jpg"

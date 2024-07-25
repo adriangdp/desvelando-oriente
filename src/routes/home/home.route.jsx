@@ -8,6 +8,7 @@ import SocialMinBar from "../../components/social-min-bar/social-min-bar.compone
 import Hero from "../../components/hero/hero.component";
 import CategoriesHomeHistoria from '../../components/categories-home-historia/categories-home-historia.component';
 import CategoriesHomeActualidad from '../../components/categories-home-actualidad/categories-home-actualidad.component';
+import AllCategoriesCloud from '../../components/all-categories-cloud/all-categories-cloud.components';
 
 
 const Home = () => {
@@ -64,6 +65,7 @@ const Home = () => {
       </header>
       <CategoriesHomeHistoria />
       <CategoriesHomeActualidad />
+      <AllCategoriesCloud />
       
       <Row className=' mx-0 pt-3 pb-0 g-0 mt-5 '>
         <Col className='col-md-12 col-lg-7 mt-5 px-5 py-5 align-content-center bg-secondary text-white'>

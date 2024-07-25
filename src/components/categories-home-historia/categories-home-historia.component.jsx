@@ -6,9 +6,9 @@ import CategoriesImageLink from '../categories-imagelink/categories-imagelink.co
 const CategoriesHome = () =>{
 
     return(
-        <Container fluid className='mx-0 px-0 px-md-5 mt-3 mt-md-5'>
-            <h2 className='display-5 pb-0'>Historia</h2>
-            <Row className='g-3 g-md-0 pt-5'>
+        <Container fluid className='mx-0 px-0 px-md-5 mt-3 mt-7 mt-md-5'>
+            <h2 className='display-5 pb-0 mx-3'>Historia</h2>
+            <Row className='g-0 g-md-0 pt-5'>
                 <CategoriesImageLink 
                     title="Breve historia de Oriente Medio" 
                     img="/media/categories/cat-breve-historia-oriente-medio.jpg"
