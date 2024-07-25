@@ -32,13 +32,13 @@ const SinglePost =() =>{
                 post.content ?
                     
                     <Row className='pt-5 mt-5 w-100' >
-                        <Col className='col-sm-3 col-md-2 mt-5 pt-3 mx-2 d-flex flex-column justify-content-start align-items-center'>
-                            <img src={post.author.avatar_URL} className="w-50 rounded-circle" alt="" />
+                        <Col className='col-12 col-md-2 mt-5 pt-3 mx-2 d-flex flex-column justify-content-start align-items-center'>
+                            <img src={post.author.avatar_URL} className="w-25 w-md-50 rounded-circle" alt="" />
                             <p className='mt-3 text-center'>{post.author.name}</p>
                             
                         </Col>
-                        <Col className='col-sm-9 col-md-6 my-5 ms-5 contenido' style={{"lineHeight" : "1.8em"}}>
-                            <h2 className='display-3 mb-5'>{post.title}</h2>  
+                        <Col className='col-9 col-md-8 col-lg-5 my-5 ms-5 contenido' style={{"lineHeight" : "1.8em"}}>
+                            <h2 className='display-3 mb-5'>{parse(post.title)}</h2>  
                             <div className='d-flex my-3'>
                                 <div>
                                     {
@@ -55,8 +55,10 @@ const SinglePost =() =>{
                                 
                             </div>
                             
-                                
-                            {parse(post.content)}
+                            <div>
+                                {parse(post.content)}
+                            </div>   
+                            
                         </Col>
                         
                     </Row>
